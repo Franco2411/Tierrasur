@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tierrasur</string>
+    <string name="nameEm">Tierrasur S.A.</string>
+    <string name="txtUsuario">E-mail</string>
+    <string name="txtContra">Contraseña</string>
+    <string name="btnIniciar">Iniciar Sesión</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnCerrar">Cerrar Sesión</string>
+    <string name="btnGoogle">Acceder con Google</string>
+    <string name="btnCargar">Cargar datos</string>
+    <string name="lblHDA">HDA54 | Software Developer</string>
+    <string name="prefs_file">com.example.tierrasur.PREFERENCE_FILE_KEY</string>
+    <string name="spinnerItem">Seleccione un item</string>
+    <string-array name="opciones">
+        <item>Administrador</item>
+        <item>Técnico</item>
+        <item>Operario</item>
+        <item>Todo</item>
+    </string-array>
+    <string name="tvNombre">Nombre:</string>
+    <string name="tvApe">Apellido:</string>
+    <string name="tvEmail">E-mail:</string>
+    <string name="txtPass2">Vuelva a introducir la contraseña:</string>
+    <string name="btnConfirm">Confirmar registro</string>
+    <string name="btnVolver">Volver</string>
+    <string name="btnGet">Recupero datos</string>
+    <string name="lblCampaña">Campaña:</string>
+    <string name="lblUnidadP">Unidad Productiva:</string>
+    <string name="lblLabores">Labores</string>
+    <string name="lblLote"> N° de Lote:</string>
+    <string name="lblActividad">Actividad:</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="lblSemillas">Semillas:</string>
+    <string name="lblAgro">Agroquímicos:</string>
+    <string name="lblFerti">Fertilizantes:</string>
+    <string name="lblVarios">Varios:</string>
+    <string name="btnRegisOperacion">Registrar operación</string>
+    <string name="txtCamp">Ej: 20/21</string>
+    <string name="txt_cant">Cant.</string>
+    <string name="txt_0">0</string>
+</resources>

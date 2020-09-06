@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Tierrasur</string>
+    <string name="nameEm">Tierrasur S.A.</string>
+    <string name="txtUsuario">E-mail</string>
+    <string name="txtContra">Contraseña</string>
+    <string name="btnIniciar">Iniciar Sesión</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnCerrar">Cerrar Sesión</string>
+    <string name="btnGoogle">Acceder con Google</string>
+    <string name="btnCargar">Cargar datos</string>
+    <string name="lblHDA">HDA54 | Software Developer</string>
+    <string name="prefs_file">com.example.tierrasurfragments.PREFERENCE_FILE_KEY</string>
+    <string name="spinnerItem">Seleccione un item</string>
+
+    <!-- TODO: Defino arreglos para spinners -->
+    <string-array name="spin_actividades">
+        <item>null</item>
+        <item>AVENA</item>
+        <item>AVENA COSECHADA</item>
+        <item>CRIA</item>
+        <item>FEEDLOT SG1</item>
+        <item>GENERAL</item>
+        <item>HACIENDA</item>
+        <item>MAIZ</item>
+        <item>MAIZ COSECHADO</item>
+        <item>POROTOS</item>
+        <item>SOJA COSECHADA</item>
+        <item>SOJA DE PRIMERA</item>
+        <item>SOJA DE SEGUNDA</item>
+        <item>SORGO</item>
+        <item>SORGO COSECHADO</item>
+        <item>TARDIO MAIZ</item>
+        <item>TRIGO</item>
+        <item>TRIGO COSECHADO</item>
+    </string-array>
+
+    <string-array name="spinNum_lote">
+        <item>null</item>
+        <item>14 (5ha)</item>
+        <item>2 (20ha)</item>
+        <item>3 (24,5ha)</item>
+        <item>4 (26ha)</item>
+        <item>5 (20ha)</item>
+        <item>6 (21ha)</item>
+        <item>7 (30ha)</item>
+        <item>9 (39ha)</item>
+        <item>10 (39ha)</item>
+        <item>11 (39ha)</item>
+        <item>12 (36ha)</item>
+        <item>13 (39ha)</item>
+        <item>1 (40ha)</item>
+        <item>42 (55,5ha)</item>
+        <item>43 (46ha)</item>
+        <item>44 (54ha)</item>
+        <item>81 (37ha)</item>
+        <item>82 (42ha)</item>
+        <item>16 (36ha)</item>
+        <item>17 (50ha)</item>
+        <item>18 (33ha)</item>
+        <item>19 (39ha)</item>
+        <item>20 (50ha)</item>
+        <item>22 (31ha)</item>
+        <item>45 (30ha)</item>
+        <item>21 (48ha)</item>
+        <item>83 (16,5ha)</item>
+        <item>84 (15,5ha)</item>
+        <item>85 (25ha)</item>
+        <item>86 (19,5ha)</item>
+        <item>31 (46ha)</item>
+        <item>32 (45ha)</item>
+        <item>33 (24ha)</item>
+        <item>34 (14ha)</item>
+        <item>35 (40ha)</item>
+        <item>36 (23ha)</item>
+        <item>37 (86ha)</item>
+        <item>38 (23ha)</item>
+        <item>39 (18ha)</item>
+        <item>87 (5ha)</item>
+    </string-array>
+
+    <string-array name="spinUni_P">
+        <item>null</item>
+        <item>3</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="unidades">
+        <item> </item>
+        <item>Uni.</item>
+        <item>Kg</item>
+        <item>L</item>
+    </string-array>
+
+    <string-array name="agros">
+        <item>null</item>
+        <item>PROMETRINA HERBICIDA</item>
+        <item>EDUSS HERBICIDA</item>
+        <item>CONVEY</item>
+        <item>ACEITE METILADO</item>
+        <item>HELLOIN INSECTICIDA</item>
+        <item>BENZOATO INSECTICIDA</item>
+        <item>LAMBDACIALOTRINA AL 25%</item>
+        <item>PATTON FLOW PIRIMICAR</item>
+        <item>ACEITE MINERAL</item>
+        <item>FIERCE HERBICIDA</item>
+        <item>BIOESTIMULANTE SOGIX</item>
+        <item>EXITO HUMECTANTE DE NOVA</item>
+        <item>LUFENURON 5%</item>
+        <item>INSECTICIDA HOOD DE NOVA</item>
+        <item>CERILLO SYNGENTA</item>
+        <item>GLIFOS. 54% ACIDO</item>
+        <item>YAMATO PYROXASULTONE</item>
+        <item>CALLISTO MESOTRIONE HERBI</item>
+        <item>VIBRANCE CURA SEMILLA TRI</item>
+    </string-array>
+
+    <string-array name="fertis">
+        <item>null</item>
+        <item>UREA PERLADA</item>
+        <item>UREA</item>
+        <item>FOSFATO MONOAMONICO</item>
+        <item>FOSFATO DIAMONICO</item>
+        <item>NITRATO DE AMINIO CALCARE</item>
+        <item>SULFOSATO DE AMONIO</item>
+        <item>GLIFOSATO PANZER DOW BID</item>
+        <item>NITRATO DE AMONIO</item>
+        <item>UAN 32%</item>
+        <item>SUPER FOSFATO SIMPLE</item>
+        <item>SULFATO DE CALCIO PELETEA</item>
+        <item>SUPER FOSFATO TRIPLE</item>
+        <item>SULTAFOCALCIO MAGNESIO 36</item>
+        <item>FERTIL. FOLIAR WOHR QUIMI</item>
+        <item>CINC</item>
+        <item>PROTEGIDA UREA</item>
+        <item>MICROEXENCIAL</item>
+    </string-array>
+
+    <string-array name="semillas">
+        <item>null</item>
+        <item>FESTUCA QUATUN</item>
+        <item>FN 4.97 SEMILLA SOJA</item>
+        <item>CEBADILLA TIJERETA</item>
+        <item>DK 7310VT 3P RIB</item>
+        <item>YARARA TRIGO</item>
+        <item>KLEIN SERPIENTE</item>
+        <item>STS DM 4615</item>
+        <item>LT 722 VT3 PRO</item>
+        <item>LT 621 RR2</item>
+        <item>NEXT 22.60 SEM MAIZ</item>
+        <item>DK 72-20 VT 3P</item>
+        <item>DK 72-20 RIB</item>
+        <item>BUCK AIKEN AVENA</item>
+        <item>SEMILLA SOJA CZ4306</item>
+        <item>DM CEIBO</item>
+        <item>LT 623 VT 3P</item>
+        <item>FEST. ARUNDINACEA TAITA</item>
+        <item>DK 7270 VT3P</item>
+        <item>DK 7227 VT 3P</item>
+        <item>HINERBA  O MINERBA</item>
+        <item>DM 46R18 STS</item>
+        <item>NS 4309 NIDERA</item>
+        <item>CEBADILLA TANGO GENTOS</item>
+        <item>FESTUCA MEDITERRANIA 100</item>
+        <item>BAGUETTE 620</item>
+        <item>BUCK SY 120</item>
+    </string-array>
+
+    <string-array name="varios">
+        <item>null</item>
+        <item>ALFALFA ROLLOS</item>
+        <item>FARDOS</item>
+        <item>COMB Y LUBRICANTES</item>
+        <item>ACEITE HIDRAULICO DONAXTD</item>
+        <item>ACEITE P/MOTOR RIMULA</item>
+        <item>GAS PROPANO</item>
+        <item>ROLLOS DE MOHA</item>
+        <item>ROLLOS DE AVENA</item>
+        <item>ROLLOS DE TRIGO</item>
+        <item>ROLLOS DE SOJA</item>
+        <item>EURO COMBUSTIBLE</item>
+        <item>SILO BOLSAS</item>
+        <item>NUMERO 13-A</item>
+        <item>BOLSASJE</item>
+    </string-array>
+
+    <string-array name="labores">
+        <item>null</item>
+        <item>CINCEL</item>
+        <item>CINCEL CON RASTRA</item>
+        <item>COSECHA</item>
+        <item>COSECHA MAIZ HUMEDO</item>
+        <item>COSECHA MAIZ PICADO</item>
+        <item>CULTIVADOR</item>
+        <item>CULTIVADOR CON RASTRA</item>
+        <item>DESMALEZADORA</item>
+        <item>DESMALEZAR A MANO</item>
+        <item>DISCO</item>
+        <item>DISCO CON RASTRA</item>
+        <item>ESCARDILLO</item>
+        <item>FERTILIZACION</item>
+        <item>FERTILIZACION AL VOLEO</item>
+        <item>FUMIGACION</item>
+        <item>FUMIGACION AEREA</item>
+        <item>FUMIGACION TERRESTRE</item>
+        <item>RABASTO</item>
+        <item>RASTRA DE DIENTES</item>
+        <item>RASTRA Y SIEMBRA</item>
+        <item>ROLO</item>
+        <item>ROTATIVA</item>
+        <item>SIEMBRA CONVENCIONAL</item>
+        <item>SIEMBRA DIRECTA</item>
+        <item>SlEMBRA DIRECTA GR FINOS</item>
+        <item>SIEMBRA DIRECTA PASTURAS</item>
+        <item>SlEMBRA GR FINOS</item>
+    </string-array>
+    <!-- TODO: Termino definicion de arreglos -->
+
+    <string name="tvNombre">Nombre:</string>
+    <string name="tvApe">Apellido:</string>
+    <string name="tvEmail">E-mail:</string>
+    <string name="txtPass2">Vuelva a introducir la contraseña:</string>
+    <string name="btnConfirm">Confirmar registro</string>
+    <string name="btnVolver">Volver</string>
+    <string name="btnGet">Recupero datos</string>
+    <string name="lblCampaña">Campaña:</string>
+    <string name="lblUnidadP">Unidad Productiva:</string>
+    <string name="lblLabores">Labores</string>
+    <string name="lblLote"> N° de Lote:</string>
+    <string name="lblActividad">Actividad:</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="lblSemillas">Semillas:</string>
+    <string name="lblAgro">Agroquímicos:</string>
+    <string name="lblFerti">Fertilizantes:</string>
+    <string name="lblVarios">Varios:</string>
+    <string name="btnRegisOperacion">Registrar operación</string>
+    <string name="txtCamp">Ej: 20/21</string>
+    <string name="txt_cant">Cant.</string>
+    <string name="txt_0">0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_acercaDe">Acerca De</string>
+    <string name="desarrollado_por">Desarrollador</string>
+    <string name="nom_desarrollador">Franco Allovero</string>
+    <string name="contacto_fra98nba_gmail_com">Contacto: fra98nba@gmail.com</string>
+    <string name="versi_n">Versión:</string>
+    <string name="anio">2020</string>
+    <string name="configuraci_n">Configuración</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/acercaDe"
+        android:title="@string/item_acercaDe"
+        android:fontFamily="@font/roboto_medium"
+        android:icon="@drawable/ic_info_icon"/>
+    <item
+        android:id="@+id/configuracionFragment"
+        android:title="@string/configuraci_n"
+        android:fontFamily="@font/roboto_medium"
+        android:icon="@drawable/ic_settings_24"/>
+</menu>

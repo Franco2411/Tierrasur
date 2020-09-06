@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_sesion"
+    app:startDestination="@id/inicioSesionFragment">
+
+    <fragment
+        android:id="@+id/inicioSesionFragment"
+        android:name="com.example.tierrasurfragments.InicioSesionFragment"
+        android:label="InicioSesionFragment"
+        tools:layout="@layout/fragment_inicio_sesion">
+        <action
+            android:id="@+id/action_inicioSesionFragment_to_registroFragment"
+            app:destination="@id/registroFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.tierrasurfragments.RegistroFragment"
+        android:label="RegistroFragment"
+        tools:layout="@layout/fragment_registro">
+        <action
+            android:id="@+id/action_registroFragment_to_inicioSesionFragment"
+            app:destination="@id/inicioSesionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+</navigation>
